@@ -71,8 +71,8 @@ export class TimeTracker extends Component {
                         </div>
                     </div>
                     <div className='submit'>
-                        <button className='btn btn-add' // eslint-disable-next-line
-                        onClick={ () => this.dailyRoutineListPush( `${this.state.time }   ` + `   ${ this.state.dailyRoutine }`)}
+                        <button className='btn btn-add'
+                        onClick={ () => this.dailyRoutineListPush( `${this.state.time }  ${ this.state.dailyRoutine }`)}
                         >Add</button>
                     </div>
                     <div className='list'>
